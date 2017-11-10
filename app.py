@@ -9,7 +9,7 @@ def root():
 
 @my_app.route('/trivia')
 def trivia():
-
+    return render_template("trivia.html")
 
 @my_app.route('/nasa')
 def nasa():
